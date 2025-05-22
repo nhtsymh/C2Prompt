@@ -36,4 +36,4 @@ Compute the six metrics in our benchmark with src/benchmark_metrics.py. Note tha
 ```
 python benchmark_metrics.py
 ```
-Please refer to 'src/option.py' for more introductions on arguments.
+Please refer to `src/option.py` for more introductions on arguments.
