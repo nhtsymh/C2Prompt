@@ -32,4 +32,7 @@ You can get the single task training results in:
 sh src/scripts/run_imagenetr_direct.sh
 sh src/scripts/run_domainnet_direct.sh
 ```
-Compute the five metrics in our benchmark with src/benchmark_metrics.py.
+Compute the five metrics in our benchmark with src/benchmark_metrics.py. Note that 2 clients switch to new tasks every 3 rounds (start from round 0), thus we compute the five metrics every 3 rounds. First, please set the finished task id in task_list_forward and task_list_backward. Task id is calculated by (round // 3) * num_clients + client_id. Then, run the command and you will get the results:
+```
+python benchmark_metrics.py
+```
