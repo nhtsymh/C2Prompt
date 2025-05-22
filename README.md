@@ -21,7 +21,7 @@ This work primarily utilizes DomainNet, ImageNet-R. Among them, DomainNet, Image
 
 
 
-### DC-Comp
+### Training
 You can directly run the pre-written shell script:
 ```
 sh src/scripts/run_imagenetr.sh
