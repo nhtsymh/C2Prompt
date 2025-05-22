@@ -24,11 +24,12 @@ This work primarily utilizes DomainNet, ImageNet-R. Among them, DomainNet, Image
 ### DC-Comp
 You can directly run the pre-written shell script:
 ```
-sh scripts/run_imagenetr.sh
-sh scripts/run_domainnet.sh
+sh src/scripts/run_imagenetr.sh
+sh src/scripts/run_domainnet.sh
 ```
 You can get the single task training results in:
 ```
-sh scripts/run_imagenetr_direct.sh
-sh scripts/run_domainnet_direct.sh
+sh src/scripts/run_imagenetr_direct.sh
+sh src/scripts/run_domainnet_direct.sh
 ```
+Compute the five metrics in our benchmark with src/benchmark_metrics.py.
