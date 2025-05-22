@@ -27,3 +27,8 @@ You can directly run the pre-written shell script:
 sh scripts/run_imagenetr.sh
 sh scripts/run_domainnet.sh
 ```
+You can get the single task training results in:
+```
+sh scripts/run_imagenetr_direct.sh
+sh scripts/run_domainnet_direct.sh
+```
