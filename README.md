@@ -2,7 +2,7 @@
 
 
 
-![Framework](figs/framework.png)
+![Framework](framework.pdf)
 
 
 
